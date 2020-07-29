@@ -17,10 +17,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        // 绑定元素
         android = (CheckBox)findViewById(R.id.chkAndroid);
         angular = (CheckBox)findViewById(R.id.chkAngular);
         java = (CheckBox)findViewById(R.id.chkJava);
         python = (CheckBox)findViewById(R.id.chkPython);
+
+        // 绑定事件
         Button btn = (Button)findViewById(R.id.getBtn);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
