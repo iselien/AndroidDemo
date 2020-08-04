@@ -32,6 +32,9 @@ public class MainActivity extends AppCompatActivity {
                 camera = Camera.open(); // attempt to get a Camera instance
                 Toast.makeText(this, "相机获取成功", Toast.LENGTH_LONG).show();
 
+                camera.setDisplayOrientation(90);
+
+
                 // Create our Preview view and set it as the content of our activity.
                 mPreview = new CameraPreview(this, camera);
                 FrameLayout preview = (FrameLayout) findViewById(R.id.camera_preview);
@@ -50,13 +53,21 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClick(View view) {
         try {
-            camera.startPreview();
-            camera.takePicture(null, null, new PhotoHandler(getApplicationContext()));
+
+            camera.autoFocus(new Camera.AutoFocusCallback() {
+                @Override
+                public void onAutoFocus(boolean b, Camera camera) {
+                    camera.startPreview();
+                    camera.takePicture(null, null, new PhotoHandler(getApplicationContext()));
+                }
+            });
+
         }catch (Exception e){
             Log.e(TAG, "getCameraInstance: "+e.getMessage()+"----"+ e.toString());
             Toast.makeText(this, "预览异常", Toast.LENGTH_LONG).show();
         }
     }
+
 
 
     private int findFrontFacingCamera() {

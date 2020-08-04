@@ -4,6 +4,7 @@ import android.content.Context;
 import android.hardware.Camera;
 import android.os.Environment;
 import android.util.Log;
+import android.view.SurfaceView;
 import android.widget.Toast;
 
 import java.io.File;
@@ -11,12 +12,13 @@ import java.io.FileOutputStream;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class PhotoHandler implements Camera.PictureCallback {
+public class PhotoHandler extends SurfaceView implements Camera.PictureCallback {
 
     private static final String TAG = "PhotoHandler";
     private final Context context;
 
     public PhotoHandler(Context context) {
+        super(context);
         this.context = context;
     }
 
