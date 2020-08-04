@@ -22,6 +22,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(new Intent(this, TakeAPhotoActivitiy.class));
     }
 
+    // 进入 "使用Camera" Activity
+    public void camera(View view){
+        startActivity(new Intent(this, CameraActivity.class));
+    }
+
+
     // 进入 "扫一扫" Activity
     public void scan(View view){
         startActivity(new Intent(this, ScanQRCodeActivity.class));
@@ -40,13 +46,13 @@ public class MainActivity extends AppCompatActivity {
 
 //    Intent intent = new Intent( MediaStore.ACTION_IMAGE_CAPTURE );
 //        startActivityForResult( intent,CAMERA_REQUEST );
-//
+
 //        // 获取 "扫一扫" 按钮
 //        Button btnScanBarcode = (Button)findViewById(R.id.btnScanBarcode);
-//
+
 //        // 获取 "照片"
 //        imageView = (ImageView) this.findViewById(R.id.imageView1);
-//
+
 //        // 为 "扫一扫" 按扭添加点击事件，点击进入ScannedBarcodeActivity
 //        btnScanBarcode.setOnClickListener(new View.OnClickListener() {
 //            @Override
@@ -56,7 +62,7 @@ public class MainActivity extends AppCompatActivity {
 //            }
 //        });
 //    }
-//
+
 //    // 在 ImageView中显示缩略图
 //    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 //        super.onActivityResult( requestCode, resultCode, data );

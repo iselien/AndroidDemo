@@ -2,9 +2,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.yovelas">
 
-    <uses-feature
-        android:name="android.hardware.camera"
-        android:required="true"/>
+<!--    <uses-feature android:name="android.hardware.camera" android:required="true" />-->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <!-- Needed only if your app targets Android 5.0 (API level 21) or higher. -->
+    <uses-feature android:name="android.hardware.location.gps" />
 
     <application
         android:allowBackup="true"
@@ -26,14 +30,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".TakeAPhotoActivitiy"></activity>
-        <activity android:name=".ScanQRCodeActivity"></activity>
-        <activity android:name=".OpenURLActivity"></activity>
-        <activity android:name=".ComputeActivity"></activity>
-        <activity android:name=".ComputeResultActivity"></activity>
+        <activity android:name=".TakeAPhotoActivitiy"/>
+        <activity android:name=".ScanQRCodeActivity"/>
+        <activity android:name=".OpenURLActivity"/>
+        <activity android:name=".ComputeActivity"/>
+        <activity android:name=".ComputeResultActivity"/>
+        <activity android:name=".CameraActivity" />
 
-
-<!--        <provider-->
+        <!--        <provider-->
 <!--            android:name="android.support.v4.content.FileProvider"-->
 <!--            android:authorities="${applicationId}.provider"-->
 <!--            android:exported="false"-->
