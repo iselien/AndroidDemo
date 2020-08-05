@@ -2,20 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.yovelas">
 
-    <!--  声明程序具有控制相机的特性，并且设备必须有相机设备  -->
-    <uses-feature android:name="android.hardware.camera"
-        android:required="true" />
-    <!--  声明程序具有自动对焦的特性  -->
-    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+    <uses-feature android:name="android.hardware.location.gps" />
 
-    <!--  程序需要拥有相机权限   -->
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+
     <uses-permission android:name="android.permission.CAMERA" />
-    <!--  程序需要拥有外部存储权限  -->
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-
-    <!--    <uses-permission android:name="android.permission.RECORD_AUDIO" />-->
-    <!--    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />-->
-    <!--    <uses-feature android:name="android.hardware.location.gps" />-->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -28,6 +25,12 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".intentfilter.CameraIntentFilter">
+            <intent-filter>
+                <action android:name="android.media.action.IMAGE_CAPTURE" />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
