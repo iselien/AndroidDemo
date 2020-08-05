@@ -44,7 +44,14 @@ public class UserProvider extends ContentProvider {
     @Nullable
     @Override
     public String getType(@NonNull Uri uri) {
-        return null;
+
+        switch (uriMatcher.match(uri)) {
+            case uriCode:
+                return "vnd.android.cursor.dir/users";
+            default:
+                throw new IllegalArgumentException("Unsupported URI: " + uri);
+        }
+
     }
 
     @Nullable
