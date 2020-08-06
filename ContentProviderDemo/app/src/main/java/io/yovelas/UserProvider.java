@@ -13,6 +13,43 @@ import java.util.HashMap;
 
 public class UserProvider extends ContentProvider {
 
+
+//    // Defines a handle to the Room database
+//    private AppDatabase appDatabase;
+//
+//    // Defines a Data Access Object to perform the database operations
+//    private UserDao userDao;
+//
+//    // Defines the database name
+//    private static final String DBNAME = "mydb";
+//
+//    public boolean onCreate() {
+
+
+//
+//        // Creates a new database object.
+//        appDatabase = Room.databaseBuilder(getContext(), AppDatabase.class, DBNAME).build();
+//
+//        // Gets a Data Access Object to perform the database operations
+//        userDao = appDatabase.getUserDao();
+//
+//        return true;
+//    }
+//
+//    ...
+//
+//    // Implements the provider's insert method
+//    public Cursor insert(Uri uri, ContentValues values) {
+//        // Insert code here to determine which DAO to use when inserting data, handle error conditions, etc.
+//    }
+//
+//
+
+
+
+
+
+
     static final String PROVIDER_NAME = "com.tutlane.contentprovider.UserProvider";
     static final String URL = "content://" + PROVIDER_NAME + "/users";
     static final Uri CONTENT_URI = Uri.parse(URL);
