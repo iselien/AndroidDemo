@@ -179,7 +179,6 @@ public class MainActivity extends AppCompatActivity {
         return c; // returns null if camera is unavailable
     }
 
-
     public void onClick(View view) {
         verifyStoragePermissions(this);
 
