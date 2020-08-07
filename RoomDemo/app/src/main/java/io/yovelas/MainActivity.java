@@ -3,8 +3,11 @@ package io.yovelas;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.room.Room;
 
+import android.content.ClipData;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 
 import java.util.List;
 
@@ -17,20 +20,32 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        AppDatabase database = Room.databaseBuilder(this, AppDatabase.class, "mydb").allowMainThreadQueries().build();
-        ItemDao itemDao = database.getItemDao();
-        Item item = new Item();
-        item.setName("item001");
-        item.setDescription("item001 Description");
-        item.setQuantity(1000L);
-        item.setId(111L);
 
-//        itemDao.insert(item);
+        Button btn = findViewById(R.id.btn);
 
-        List<Item> items = itemDao.getItems();
-        for (Item i : items){
-            Log.e(TAG, "onCreate: getitems: " + i);
-        }
+        btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+
+                AppDatabase db = Room.databaseBuilder(getApplicationContext(), AppDatabase.class, "mydb").build();
+
+                UserDao userDao = db.userDao();
+
+                User user = new User();
+                user.setUid(1);
+                user.setFirstName("yove");
+                user.setLastName("las");
+
+                userDao.insertAll(user);
+            }
+        });
+
+
+//        List<User> all = userDao.getAll();
+//        for (User u : all){
+//            Log.e(TAG, "onCreate: getitems: " + u);
+//        }
 
 
     }
