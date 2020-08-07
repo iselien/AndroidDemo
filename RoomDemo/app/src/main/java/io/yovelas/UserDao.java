@@ -9,7 +9,6 @@ import java.util.List;
 
 @Dao
 public interface UserDao {
-
     @Query("SELECT * FROM user")
     List<User> getAll();
 
@@ -21,9 +20,8 @@ public interface UserDao {
     User findByName(String first, String last);
 
     @Insert
-    void insertAll(User users);
+    void insertAll(User... users);
 
     @Delete
     void delete(User user);
 }
-
