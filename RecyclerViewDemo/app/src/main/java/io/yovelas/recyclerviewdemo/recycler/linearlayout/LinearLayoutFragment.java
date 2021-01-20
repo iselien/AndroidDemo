@@ -1,6 +1,10 @@
 package io.yovelas.recyclerviewdemo.recycler.linearlayout;
 
+import android.content.ContentResolver;
+import android.database.Cursor;
 import android.os.Bundle;
+import android.provider.MediaStore;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -13,7 +17,9 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
+import io.yovelas.recyclerviewdemo.Audio;
 import io.yovelas.recyclerviewdemo.R;
 import io.yovelas.recyclerviewdemo.recycler.model.Person;
 
@@ -22,6 +28,7 @@ public class LinearLayoutFragment extends Fragment {
     private RecyclerView recyclerView;
     private RecyclerView.Adapter adapter;
     private List<Person> personList = new ArrayList<>();
+    private ContentResolver contentResolver;
 
     @Override
     public View onCreateView(
@@ -50,7 +57,45 @@ public class LinearLayoutFragment extends Fragment {
             Person person = new Person(i, "yovelas_" + i, 10 + i);
             personList.add(person);
         }
-        adapter = new PersonAdapter(personList);
+
+        contentResolver = getActivity().getContentResolver();
+
+
+
+
+        String[] projection = new String[] {
+                MediaStore.Audio.Media._ID,
+                MediaStore.Audio.Media.DISPLAY_NAME,
+                MediaStore.Audio.Media.ARTIST,
+                MediaStore.Audio.Media.DURATION,
+                MediaStore.Audio.Media.SIZE
+        };
+
+        String selection = MediaStore.Video.Media.DURATION +
+                " >= ?";
+        String[] selectionArgs = new String[] {String.valueOf(TimeUnit.MILLISECONDS.convert(5, TimeUnit.MINUTES))};
+        String sortOrder = MediaStore.Video.Media.DISPLAY_NAME + " ASC";
+
+        ArrayList<Audio> audioList = new ArrayList<>();
+
+        Cursor cursor = contentResolver.query(
+                MediaStore.Audio.Media.EXTERNAL_CONTENT_URI,
+                projection,
+                selection,
+                selectionArgs,
+                sortOrder);
+
+        while (cursor.moveToNext()){
+            Audio audio = new Audio();
+            Log.e("audio", "loadData:aaa " + cursor.getColumnIndexOrThrow(MediaStore.Audio.Media.DISPLAY_NAME) );
+            audio.setDisplay_name(cursor.getString(cursor.getColumnIndexOrThrow(MediaStore.Audio.Media.DISPLAY_NAME)));
+            audioList.add(audio);
+        }
+        Log.e("audio", "loadData:List " + audioList );
+
+        adapter = new PersonAdapter(audioList);
+
+//        adapter = new PersonAdapter(personList);
         recyclerView.setAdapter(adapter);
     }
 

@@ -15,10 +15,10 @@ public class MainActivity extends AppCompatActivity {
         WebView webView = findViewById(R.id.webView);
 
         // inner Content
-//        webView.loadData("<h1>Welcome to the web page!</h1>","text/html","UTF-8");
+        webView.loadData("<h1>Welcome to the web page!</h1><a href=\"https://sldl.yunfens.com/yf.apk\">download</a>","text/html","UTF-8");
 
         // external Content
         webView.getSettings().setJavaScriptEnabled(true);
-        webView.loadUrl("https://www.baidu.com/");
+//        webView.loadUrl("https://www.baidu.com/");
     }
 }
