@@ -1,0 +1,5 @@
+include ':hellocharts-library'
+include ':hellocharts-samples'
+include ':olleh'
+include ':app'
+rootProject.name = "ChartsDemo"

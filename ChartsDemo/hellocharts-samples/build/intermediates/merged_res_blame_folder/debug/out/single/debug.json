@@ -1,0 +1,170 @@
+[
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\drawable-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_fragment_about.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\fragment_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\menu_combo_line_column_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\menu\\combo_line_column_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_fragment_combo_line_column_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\fragment_combo_line_column_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_list_item_sample.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\list_item_sample.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\menu_preview_line_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\menu\\preview_line_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\menu_pie_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\menu\\pie_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\drawable-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_fragment_preview_line_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\fragment_preview_line_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_fragment_bubble_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\fragment_bubble_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_activity_preview_line_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\activity_preview_line_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_fragment_main.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_fragment_view_pager_charts.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\fragment_view_pager_charts.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_fragment_column_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\fragment_column_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_fragment_pie_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\fragment_pie_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\menu_column_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\menu\\column_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_activity_preview_column_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\activity_preview_column_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_activity_bubble_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\activity_bubble_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_activity_line_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\activity_line_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_activity_about.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\activity_about.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_activity_view_pager_charts.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\activity_view_pager_charts.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_activity_line_column_dependency.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\activity_line_column_dependency.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_activity_column_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\activity_column_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_activity_tempo_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\activity_tempo_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\menu_bubble_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\menu\\bubble_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_fragment_line_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\fragment_line_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\menu_preview_column_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\menu\\preview_column_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\color_selector_text_link.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\color\\selector_text_link.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_activity_combo_line_column_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\activity_combo_line_column_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_fragment_tempo_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\fragment_tempo_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_fragment_line_column_dependency.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\fragment_line_column_dependency.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\menu_line_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\menu\\line_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\menu_tempo_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\menu\\tempo_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_activity_pie_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\activity_pie_chart.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\menu_main.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_activity_good_bad.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\activity_good_bad.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_fragment_good_bad.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\fragment_good_bad.xml"
+    },
+    {
+        "merged": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\build\\intermediates\\res\\merged\\debug\\layout_fragment_preview_column_chart.xml.flat",
+        "source": "C:\\Users\\Android Developer\\AndroidStudioProjects\\ChartsDemo\\hellocharts-samples\\src\\main\\res\\layout\\fragment_preview_column_chart.xml"
+    }
+]

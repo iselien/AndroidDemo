@@ -4,11 +4,18 @@ import androidx.room.Dao;
 import androidx.room.Delete;
 import androidx.room.Insert;
 import androidx.room.Query;
+import androidx.room.Update;
 
 import java.util.List;
 
-@Dao
+@Dao //Database access object
 public interface UserDao {
+    @Insert
+    void insertUser(User... users);
+
+    @Update
+    void updateUsers(User... users);
+
     @Query("SELECT * FROM user")
     List<User> getAll();
 
@@ -19,9 +26,9 @@ public interface UserDao {
             "last_name LIKE :last LIMIT 1")
     User findByName(String first, String last);
 
-    @Insert
-    void insertAll(User... users);
-
     @Delete
     void delete(User user);
+
+    @Query("DELETE FROM user")
+    void deleteAll();
 }
